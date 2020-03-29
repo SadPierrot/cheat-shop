@@ -1,3 +1,5 @@
+
+
 html {
     scroll-behavior: smooth;
   }
@@ -14,11 +16,17 @@ div.container-fluid#first-c {
     margin-top: -5%;
 }
 
-a.anchor {
+a.s-anchor {
     display: block; 
     background: #363636;
     padding-top: 1%; 
     margin-top: 5%;
+}
+
+a.anchor {
+    display: block; 
+    background: #363636;
+    padding-top: 1%;   
 }
 
 ul.navbar {
@@ -81,5 +89,22 @@ button.btn > a {
     color: #d6d6d6;
 }
 
+div#products {
+    color: #d6d6d6;
+    margin-top: 5%; 
+    margin-bottom: 0px;
+    background:#272727;
+}
 
+h1.our-product {
+    margin-bottom: 0px;
+    padding: 5%;
+}
+h5.green-name {
+    color: #228E5D;
+}
+
+
+
+                                   
 
