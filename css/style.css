@@ -72,7 +72,7 @@ html {
   }
 
 body {
-    font-family: 'Titan One', cursive;
+    font-family: 'Baloo Thambi 2', cursive;
     background:#363636;;
 }
 
@@ -95,6 +95,18 @@ a.anchor {
     background: #363636;
     padding-top: 1%;   
 }
+
+a.navbar-brand{
+    font-size: 30px;
+    margin-top: -1%;
+    margin-left: 12%;
+}
+
+a.navbar {
+    font-size: 20px;
+}
+
+
 
 ul.navbar {
     text-decoration: none;
@@ -167,8 +179,18 @@ h1.our-product {
     margin-bottom: 0px;
     padding: 5%;
 }
-h5.green-name {
+
+.green-name {
     color: #228E5D;
+}
+
+
+.faq {
+    padding: 5%;
+}
+
+#mag-faq {
+    margin-bottom: 50%;
 }
 
 

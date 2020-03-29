@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <!--Connect fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Thambi+2:400,500,600,700,800&display=swap&subset=tamil,vietnamese" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Titan+One&display=swap&subset=latin-ext" rel="stylesheet">
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -16,13 +17,16 @@
 </head>
 <body>
 
-<!-- Блок, который будет отображаться над страницей -->
+<!--Start preloader-->
+
 <div class="preloader">
   <div class="preloader__row">
     <div class="preloader__item"></div>
     <div class="preloader__item"></div>
   </div>
 </div>
+
+<!--End preloader-->
 
 
 <!--Start navbar-->
@@ -92,7 +96,7 @@
                     <div class="card">
                         <div class="card-body">
                             <img src="img/pr1.jpg" class="img-fluid">
-                            <h5 class="card-title">LITE VERSION</h5>
+                            <h5 class="card-title">RADAR VERSION</h5>
                             <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
                                  Laboriosam aliquam velit vel nisi atque eaque delectus voluptatum deserunt, 
                                  totam ipsam voluptatem ea perferendis fugit similique pariatur</p>
@@ -108,7 +112,7 @@
                     <div class="card">
                         <div class="card-body">
                             <img src="img/pr1.jpg" class="img-fluid">
-                            <h5 class="card-title">LITE VERSION</h5>
+                            <h5 class="card-title"> VERSION</h5>
                             <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
                                  Laboriosam aliquam velit vel nisi atque eaque delectus voluptatum deserunt, 
                                  totam ipsam voluptatem ea perferendis fugit similique pariatur </p>
@@ -170,16 +174,48 @@
         </div>
     </div>
 </div>
-<!--Start reviews-->
+<!--End reviews-->
 
 
-<!--Start products-->
+<!--Start faq-->
 
-<!--End products-->
+    <!--Start anchor-->
+    <a class="anchor" id="faq"></a>
+    <!--End anchor-->
 
-
+<div id="products" class="container animated fadeInRightBig">
+    <h1 class="our-product">OUR REVIEWS</h1>
+    <div class="container">
+        <div class="col-12">
+            <div class="row" id="mag-faq">
+                <div class="faq">
+                    <h1 class="green-name">How to download cheat after purchase? </h1>
+                    <h3>After you purchased the cheat, the download of the cheat will start automatically</h3>
+                </div>
+                <div class="faq">
+                    <h1 class="green-name">How to download cheat after purchase? </h1>
+                    <h3>After you purchased the cheat, the download of the cheat will start automatically</h3>
+                </div>
+                <div class="faq">
+                    <h1 class="green-name">How to download cheat after purchase? </h1>
+                    <h3>After you purchased the cheat, the download of the cheat will start automatically</h3>
+                </div>
+                <div class="faq">
+                    <h1 class="green-name">How to download cheat after purchase? </h1>
+                    <h3>After you purchased the cheat, the download of the cheat will start automatically</h3>
+                </div>
+                <div class="faq">
+                    <h1 class="green-name">How to download cheat after purchase? </h1>
+                    <h3>After you purchased the cheat, the download of the cheat will start automatically</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--End faq-->
 
 <script>
+    //preloader
   window.onload = function () {
     document.body.classList.add('loaded');
   }
@@ -192,7 +228,7 @@
     }, 500);
 
   }
-
+  //end preloader
     </script>
 
 
