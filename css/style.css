@@ -81,7 +81,7 @@ div.container-fluid#first-c {
     position: fixed;
     z-index: 100; 
     margin-top: -5%;
-    opacity: 0.95;
+    opacity: 0.90;
 }
 
 a.s-anchor {
@@ -107,8 +107,6 @@ a.navbar {
     font-size: 20px;
 }
 
-
-
 ul.navbar {
     text-decoration: none;
 }
@@ -124,6 +122,11 @@ li.navbar:hover > a {
     border-top: 2px solid #228E5D ;
     border-bottom: 2px solid #228E5D ;
     transition: 0.5s;
+}
+
+#products {
+  margin-top: 5%; 
+  background:#272727;
 }
 
 h4.card-title {
@@ -196,19 +199,80 @@ h1.our-product {
     padding: 5%;
 }
 
+p.person {
+  font-size: 25px;
+}
+
 .green-name {
     color: #228E5D;
+    font-size: 30px;
 }
 
 
 .faq {
-    padding: 5%;
+    padding: 2%;
+    font-size: 30px;
 }
+
+@media (max-width: 576px) {
+  .faq {
+    padding: 5%;
+    font-size: 20px;
+  }
+
+  .green-name {
+    color: #228E5D;
+    font-size: 20px;
+  }
+
+  .col-lg-4 {
+    font-size: 30px;
+    padding: 6%;
+  }
+
+  div#products {
+    margin-top: 10%;
+  }
+}
+
 
 #mag-faq {
     margin-bottom: 10%;
 }
 
+.col-lg-4 {
+  font-size: 30px;
+  padding: 3% 6% 3%;
+}
+
+@media (max-width: 576px) {
+
+}
+
+
+.circle {
+  width: 80px;
+  height: 50px;
+  background: #228E5D;
+  color: #d6d6d6;
+  font-size: 35px;
+  position: relative;
+  margin-top: -155px;
+  margin-left: 0px;
+  border-radius: 0% 0% 50% 50%;
+}
+
+p.instruction {
+  margin-top: 70px;
+
+}
+
+.inst {
+  border: 2px solid #228E5D;
+  padding: 0% 10% 10% 10%;
+  border-radius: 20%;
+  height: 100%;
+}
 
 
                                    
