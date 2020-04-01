@@ -81,6 +81,7 @@ div.container-fluid#first-c {
     position: fixed;
     z-index: 100; 
     margin-top: -5%;
+    opacity: 0.95;
 }
 
 a.s-anchor {
