@@ -124,9 +124,20 @@ li.navbar:hover > a {
     transition: 0.5s;
 }
 
-#products {
+div#inst {
   margin-top: 5%; 
   background:#272727;
+}
+
+p.card-text {
+  padding: 1.25em;
+  font-size: 20px;
+}
+
+img.rounded-circle {
+  width: 40%; 
+  border: 5px solid #228E5D;
+  margin-bottom: 5%;
 }
 
 h4.card-title {
