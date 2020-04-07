@@ -325,7 +325,6 @@ p.product {
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out;
   cursor: pointer;
   position: relative;
-  top: 1px;
 }
 
 .tabs>label:not(:first-of-type) {
@@ -338,6 +337,7 @@ p.product {
   padding: 15px;
   font-size: 25px;
   transition: 0.5s;
+  margin: 0;
 
 }
 
