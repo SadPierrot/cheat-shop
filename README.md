@@ -1,2 +1,2 @@
 # cheat-shop
-Cheat Shop for Slims
+Cheat Shop for HYDRA
